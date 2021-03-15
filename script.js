@@ -59,9 +59,9 @@ WARNING!!! WARNING!!!
     // name in the loop.
     if (firstLetter == "j") {
 
-      byeSpeaker_global.speak(names[i]);
+      byeSpeaker.speak(names[i]);
     } else { 
-      helloSpeaker_global.speak(names[i]);
+      helloSpeaker.speak(names[i]);
     }
   }
 })();
